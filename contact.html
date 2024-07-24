@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+          <a href="#" class="logo">Graken<span>events</span></a>
+          <ul class="nav-links">
+            <li><a href="gindex.HTML">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="menu-toggle" id="menu-toggle">
+            <i class="fas fa-bars menu-icon"></i>
+            <i class="fas fa-times close-icon hidden"></i>
+          </div>
+        </div>
+      </nav>
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <h1 class="contact-title">Talk to Us</h1>
+            <p class="contact-subtitle">We'd love to hear from you! Reach out to us using the form below or find us on the map.</p>
+
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name"><i class="fas fa-user"></i> Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone"><i class="fas fa-phone"></i> Phone</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message"><i class="fas fa-comment"></i> Message</label>
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="contact-details">
+                    <div class="details-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>1234 Street Name, City, Country</p>
+                    </div>
+                    <div class="details-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <p>(123) 456-7890</p>
+                    </div>
+                    <div class="details-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@yourorganization.com</p>
+                    </div>
+                    <div class="details-item">
+                        <i class="fas fa-clock"></i>
+                        <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8377510041945!2d-122.42260518468162!3d37.7749295797597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085815111f9825f%3A0x6c6e6b4e6274f76!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1627421903123!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+          <div class="footer-row">
+            <div class="footer-col">
+              <h4>About Us</h4>
+              <ul>
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Mission & Vision</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Contact Us</h4>
+              <ul>
+                <li><i class="fas fa-map-marker-alt"></i> 123 Street, City, Country</li>
+                <li><i class="fas fa-phone-alt"></i> +123 456 7890</li>
+                <li><i class="fas fa-envelope"></i> info@company.com</li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Follow Us</h4>
+              <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+              <h4>Newsletter</h4>
+              <form action="#" method="POST" class="newsletter-form">
+                <input type="email" name="email" placeholder="Your Email" required>
+                <button type="submit" class="btn-newsletter">Subscribe</button>
+              </form>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>&copy; 2024 Company Name. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
